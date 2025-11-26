@@ -1,0 +1,25 @@
+.star-rating {
+  display: flex;
+  gap: 8px;
+}
+
+.star-rating button {
+  background: none;
+  border: none;
+  font-size: 32px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 0;
+}
+
+.star-filled {
+  color: var(--dark-grey);
+}
+
+.star-empty {
+  color: var(--silver);
+}
+
+.star-rating button:hover {
+  transform: scale(1.1);
+}

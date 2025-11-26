@@ -7,3 +7,4 @@ frontend/.env
 frontend/build/ 
 .DS_Store 
 Thumbs.db 
+node_modules/ 
